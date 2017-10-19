@@ -24,7 +24,13 @@
 	* En lo posible hacer referencia a lo que hace la clase, ejemplo link-blue con dos simples palabras se puede saber que aplicando esa clase el color de un link va a ser azul.
 <<<<<<< HEAD
 	
-	
+	=======
+
+## 5. Guiones En Lugar De Under Lines
+
+	* Para una mejor compatibilidad con versiones anteriores de los navegadores, es mejor entrar en el hábito de usar guiones en su lugar de los conocidos sub rayados ó under lines. Use #col-alpha en lugar de #col_alpha.
+
+>>>>>>> d0f24360e95de87e124a34bef9cf35403b2cb39f
 	
 	
 	
@@ -66,10 +72,4 @@
 	* h1{
 	margin: 1em, 2em, 0, 0;
 	}
-=======
 
-## 5. Guiones En Lugar De Under Lines
-
-	* Para una mejor compatibilidad con versiones anteriores de los navegadores, es mejor entrar en el hábito de usar guiones en su lugar de los conocidos sub rayados ó under lines. Use #col-alpha en lugar de #col_alpha.
-
->>>>>>> d0f24360e95de87e124a34bef9cf35403b2cb39f
