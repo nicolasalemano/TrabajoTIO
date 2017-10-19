@@ -1,3 +1,3 @@
 
-## 2. Título, Fecha Y Signos
-	* Agregar una firma en el archivo css para que otros sepan quien escribio el código y como contactarlo.
+## 2. TÃ­tulo, Fecha Y Signos
+	* Agregar una firma en el archivo css para que otros sepan quien escribio el cÃ³digo y como contactarlo.
