@@ -17,10 +17,12 @@
 ## 3. Mantener Una Biblioteca De Plantillas
 	*Una vez que se decida por una estructura para usar, quitar todo lo que no es genérico y guarde el archivo como una plantilla CSS para su uso posterior.
 	*Puede guardar varias versiones para múltiples usos: un diseño de dos columnas, un diseño de blog, de impresión, móviles y así sucesivamente. Es una perdida de tiempo y conllleva mas trabajo tener que volver a escribir cada una de sus hojas de estilo desde el principio, sobre todo cuando se está utilizando las mismas convenciones y metodologías en cada uno.
+
 ## 4 Utilice Convenciones de nomenclatura de interés
 	* Utilizar nomenclaturas que hagan referenica a lo que se esta aplicando un estilo, ejemplo: en vez de llamar col-a que se quiere que este alineada a la izquierda o derecha seria conveniente llamar col-izq o col-der, esto ayudaria mucho en un fututuro para poder realizar alguna cambio.
 	* Una de las principales ventajas del CSS es la capacidad de separar estilos de contenido. Puede rediseñar completamente su sitio con sólo modificar el CSS sin tener que tocar el código HTML . Así que no arruinar definitivamente el CSS mediante el uso de nombres de limitantes. Utilice convenciones de nomenclatura más versátiles y coherentes.
 	* En lo posible hacer referencia a lo que hace la clase, ejemplo link-blue con dos simples palabras se puede saber que aplicando esa clase el color de un link va a ser azul.
+<<<<<<< HEAD
 	
 	
 	
@@ -64,3 +66,10 @@
 	* h1{
 	margin: 1em, 2em, 0, 0;
 	}
+=======
+
+## 5. Guiones En Lugar De Under Lines
+
+	* Para una mejor compatibilidad con versiones anteriores de los navegadores, es mejor entrar en el hábito de usar guiones en su lugar de los conocidos sub rayados ó under lines. Use #col-alpha en lugar de #col_alpha.
+
+>>>>>>> d0f24360e95de87e124a34bef9cf35403b2cb39f
