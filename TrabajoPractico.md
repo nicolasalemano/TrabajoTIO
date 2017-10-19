@@ -21,3 +21,46 @@
 	* Utilizar nomenclaturas que hagan referenica a lo que se esta aplicando un estilo, ejemplo: en vez de llamar col-a que se quiere que este alineada a la izquierda o derecha seria conveniente llamar col-izq o col-der, esto ayudaria mucho en un fututuro para poder realizar alguna cambio.
 	* Una de las principales ventajas del CSS es la capacidad de separar estilos de contenido. Puede rediseñar completamente su sitio con sólo modificar el CSS sin tener que tocar el código HTML . Así que no arruinar definitivamente el CSS mediante el uso de nombres de limitantes. Utilice convenciones de nomenclatura más versátiles y coherentes.
 	* En lo posible hacer referencia a lo que hace la clase, ejemplo link-blue con dos simples palabras se puede saber que aplicando esa clase el color de un link va a ser azul.
+	
+	
+	
+	
+	
+## 6. No Repitas Código
+
+	* La re utilización de atributos es útil, siempre que sea posible mediante la agrupación de elementos en lugar de declarar los estilos de nuevo. Si su h1 y h2  utilizan el mismo tamaño de fuente, color y márgenes, agruparlos mediante una coma, de la siguiente manera:
+
+	*h1,h2 {
+	margin : 1em 2em 0;
+	font-size: 1em;
+	color : #222
+	}
+
+	* Es mas eficiente que esto:
+
+	* h1 {
+	margin : 1em 2em 0;
+	font-size: 1em;
+	color : #222
+	}
+
+	* h2 {
+	margin : 1em 2em 0;
+	font-size: 1em;
+	color : #222
+	}
+
+	* También debe hacer uso de los atributos en linea siempre que sea posible. Siempre estar en la búsqueda de oportunidades para los elementos del grupo y utilizar los métodos abreviados de declaración. Por ejemplo:
+
+	* h1{
+	margin-top: 1em;
+	margin-bottom: 2em;
+	margin-left: 0;
+	margin-right: 0
+	}
+
+	*Es equivalente a esto:
+
+	* h1{
+	margin: 1em, 2em, 0, 0;
+	}
