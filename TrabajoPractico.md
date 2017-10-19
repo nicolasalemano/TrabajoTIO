@@ -1,11 +1,22 @@
+
 # Mejores practicas css
 ## 1. Sea Organizado
-    * Una de las mejores practicas es tener el c√≥digo, en lugar de escribir en cualquier lugar es bueno tener un orden, esto ayuda a mantener el concepto de cascada
-    * Declaraci√≥n de art√≠culos mas gen√©ricos primeros, luego los que no es tan gen√©rico y as√≠ sucesivamente. Esto permite que su CSS herede correctamente los atributos y lo hace mucho m√°s f√°cil.
+    * Una de las mejores practicas es tener el codigo, en lugar de escribir en cualquier lugar es bueno tener un orden, esto ayuda a mantener el concepto de cascada
+    * DeclaraciÛn de art√≠culos mas genericos primeros, luego los que no es tan gen√©rico y asi sucesivamente. Esto permite que su CSS herede correctamente los atributos y lo hace mucho mas facil.
     * Utilice una estructura que funciona mejor para usted, manteniendo ediciones futuras y otros cambios futuros.
         * Resets y overrides
         * Enlaces y type
-        * Dise√±o principal
-        * Estructuras de dise√±o secundarias
+        * DiseÒo principal
+        * Estructuras de diseÒo secundarias
         * Elementos de formulario
-        * Dem√°s dise√±o
+        * Demas diseÒo
+
+## 2. Titulo, Fecha Y Signos
+	* Agregar una firma en el archivo css para que otros sepan quien escribio el codigo y como contactarlo.
+
+
+## 3. Mantener Una Biblioteca De Plantillas
+	*Una vez que se decida por una estructura para usar, quitar todo lo que no es genÈrico y guarde el archivo como una plantilla CSS para su uso posterior.
+	*Puede guardar varias versiones para m˙ltiples usos: un diseÒo de dos columnas, un diseÒo de blog, de impresiÛn, mÛviles y asÌ sucesivamente. Es una perdida de tiempo y conllleva mas trabajo tener que volver a escribir cada una de sus hojas de estilo desde el principio, sobre todo cuando se est· utilizando las mismas convenciones y metodologÌas en cada uno.
+
+
