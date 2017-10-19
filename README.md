@@ -1,4 +1,4 @@
 # Trabajo Practico TIO 
-## Ingegrantes: 
+## Integrantes: 
 	1. José Miguez
 	2. Nicolás Alemano
